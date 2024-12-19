@@ -11,7 +11,7 @@ const CustomButton = ({ text = "Contact us", onClick, className }) => {
 
   return (
     <button
-      className={`w-[131.77px] h-[41.34px] rounded-md border-2 border-transparent border-[white] text-white text-[15px] font-medium transition duration-300 ease-in-out hover:border-[#e87d0e] hover:bg-black hover:text-[#e87d0e] ${className}`}
+      className={`w-[131.77px] h-[41.34px] rounded-md border-2 border-transparent border-[orange] text-white text-[15px] font-medium transition duration-300 ease-in-out hover:border-[#e87d0e] hover:bg-black hover:text-[#e87d0e] ${className}`}
       onClick={handleClick}
     >
       {text}
