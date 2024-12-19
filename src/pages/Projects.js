@@ -20,58 +20,76 @@ const Projects = () => {
       {/* Projects Section */}
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
         {/* Project 1 */}
-        <a href="#" className="block hover:scale-105 transition-transform duration-300">
+        <button
+          className="block hover:scale-105 transition-transform duration-300"
+          onClick={() => {}}
+        >
           <img
             src={Image1}
             className="w-full h-[223px] rounded-[20px] object-cover"
             alt="Project 1"
           />
-        </a>
+        </button>
 
         {/* Project 2 */}
-        <a href="#" className="block hover:scale-105 transition-transform duration-300">
+        <button
+          className="block hover:scale-105 transition-transform duration-300"
+          onClick={() => {}}
+        >
           <img
             src={Image2}
             className="w-full h-[223px] rounded-[20px] object-cover"
             alt="Project 2"
           />
-        </a>
+        </button>
 
         {/* Project 3 */}
-        <a href="#" className="block hover:scale-105 transition-transform duration-300">
+        <button
+          className="block hover:scale-105 transition-transform duration-300"
+          onClick={() => {}}
+        >
           <img
             src={Image3}
             className="w-full h-[223px] rounded-[20px] object-cover"
             alt="Project 3"
           />
-        </a>
+        </button>
 
         {/* Project 4 */}
-        <a href="#" className="block hover:scale-105 transition-transform duration-300">
+        <button
+          className="block hover:scale-105 transition-transform duration-300"
+          onClick={() => {}}
+        >
           <img
             src={Image4}
             className="w-full h-[223px] rounded-[20px] object-cover"
             alt="Project 4"
           />
-        </a>
+        </button>
 
         {/* Project 5 */}
-        <a href="#" className="block hover:scale-105 transition-transform duration-300">
+        <button
+          className="block hover:scale-105 transition-transform duration-300"
+          onClick={() => {}}
+        >
           <img
             src={Image5}
             className="w-full h-[223px] rounded-[20px] object-cover"
             alt="Project 5"
           />
-        </a>
+        </button>
 
         {/* Project 6 */}
-        <a href="#" className="block hover:scale-105 transition-transform duration-300">
+        <button
+          className="block hover:scale-105 transition-transform duration-300"
+          onClick={() => {}}
+        >
           <img
             src={Image6}
             className="w-full h-[223px] rounded-[20px] object-cover"
             alt="Project 6"
           />
-        </a>
+        </button>
       </div>
     </div>
   );

@@ -20,10 +20,10 @@ const Footer = () => {
         <div>
           <h3 className="text-lg sm:text-xl font-bold mb-4 text-[#e87d0e]">Useful Links</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-gray-400 text-sm sm:text-base">F.A.Q</a></li>
-            <li><a href="#" className="hover:text-gray-400 text-sm sm:text-base">Sitemap</a></li>
-            <li><a href="#" className="hover:text-gray-400 text-sm sm:text-base">Conditions</a></li>
-            <li><a href="#" className="hover:text-gray-400 text-sm sm:text-base">Licenses</a></li>
+            <li><a href="/faq" className="hover:text-gray-400 text-sm sm:text-base">F.A.Q</a></li>
+            <li><a href="/sitemap" className="hover:text-gray-400 text-sm sm:text-base">Sitemap</a></li>
+            <li><a href="/conditions" className="hover:text-gray-400 text-sm sm:text-base">Conditions</a></li>
+            <li><a href="/licenses" className="hover:text-gray-400 text-sm sm:text-base">Licenses</a></li>
           </ul>
         </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li><a href="tel:+1234567890" className="hover:text-gray-400 text-sm sm:text-base">Phone: +123 456 7890</a></li>
             <li><a href="mailto:info@example.com" className="hover:text-gray-400 text-sm sm:text-base">Email: info@example.com</a></li>
-            <li><a href="https://www.example.com/contact" className="hover:text-gray-400 text-sm sm:text-base">Contact Form</a></li>
+            <li><a href="/contact" className="hover:text-gray-400 text-sm sm:text-base">Contact Form</a></li>
           </ul>
         </div>
 
@@ -42,16 +42,16 @@ const Footer = () => {
         <div>
           <h3 className="text-lg sm:text-xl font-bold mb-4 text-[#e87d0e]">Socialize with Gamecamo</h3>
           <div className="flex space-x-4 justify-center sm:justify-start">
-            <a href="#" aria-label="Facebook" className="hover:text-gray-400">
+            <a href="https://www.facebook.com/Gamecamo" aria-label="Facebook" className="hover:text-gray-400">
               <FontAwesomeIcon icon={faFacebook} className="w-6 h-6" />
             </a>
-            <a href="#" aria-label="Twitter" className="hover:text-gray-400">
+            <a href="https://twitter.com/Gamecamo" aria-label="Twitter" className="hover:text-gray-400">
               <FontAwesomeIcon icon={faTwitter} className="w-6 h-6" />
             </a>
-            <a href="#" aria-label="Instagram" className="hover:text-gray-400">
+            <a href="https://www.instagram.com/Gamecamo" aria-label="Instagram" className="hover:text-gray-400">
               <FontAwesomeIcon icon={faInstagram} className="w-6 h-6" />
             </a>
-            <a href="#" aria-label="LinkedIn" className="hover:text-gray-400">
+            <a href="https://www.linkedin.com/company/Gamecamo" aria-label="LinkedIn" className="hover:text-gray-400">
               <FontAwesomeIcon icon={faLinkedin} className="w-6 h-6" />
             </a>
           </div>
